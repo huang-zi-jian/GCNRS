@@ -1,2 +1,2 @@
 # GCNRS
-code for final thesis
+Code for final thesis
