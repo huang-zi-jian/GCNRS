@@ -1,0 +1,52 @@
+I0420 17:33:55.264398 31832 config.py:55] FLAGS
+I0420 17:33:55.264398 31832 config.py:57] logtostderr: False
+I0420 17:33:55.264398 31832 config.py:57] alsologtostderr: False
+I0420 17:33:55.264398 31832 config.py:57] log_dir: 
+I0420 17:33:55.264398 31832 config.py:57] v: 0
+I0420 17:33:55.264398 31832 config.py:57] verbosity: 0
+I0420 17:33:55.264398 31832 config.py:57] logger_levels: {}
+I0420 17:33:55.264398 31832 config.py:57] stderrthreshold: fatal
+I0420 17:33:55.265395 31832 config.py:57] showprefixforinfo: True
+I0420 17:33:55.265395 31832 config.py:57] run_with_pdb: False
+I0420 17:33:55.265395 31832 config.py:57] pdb_post_mortem: False
+I0420 17:33:55.265395 31832 config.py:57] pdb: False
+I0420 17:33:55.265395 31832 config.py:57] run_with_profiling: False
+I0420 17:33:55.265395 31832 config.py:57] profile_file: None
+I0420 17:33:55.265395 31832 config.py:57] use_cprofile_for_profiling: True
+I0420 17:33:55.265395 31832 config.py:57] only_check_args: False
+I0420 17:33:55.265395 31832 config.py:57] batch_size: 2048
+I0420 17:33:55.265395 31832 config.py:57] test_batch_size: 256
+I0420 17:33:55.265395 31832 config.py:57] epochs: 1000
+I0420 17:33:55.265395 31832 config.py:57] warmup_steps: 150
+I0420 17:33:55.265395 31832 config.py:57] embedding_dim: 64
+I0420 17:33:55.265395 31832 config.py:57] faiss_gpu_id: 0
+I0420 17:33:55.265395 31832 config.py:57] n_layers: 3
+I0420 17:33:55.265395 31832 config.py:57] q: 5
+I0420 17:33:55.265395 31832 config.py:57] pool_num: 2
+I0420 17:33:55.265395 31832 config.py:57] topks: [20]
+I0420 17:33:55.265395 31832 config.py:57] lr: 0.001
+I0420 17:33:55.265395 31832 config.py:57] temp: 0.5
+I0420 17:33:55.265395 31832 config.py:57] prior_weight: 0.01; items_rating: 0.9pre+0.1str
+I0420 17:33:55.265395 31832 config.py:57] static_prob: 0.97
+I0420 17:33:55.265395 31832 config.py:57] cl_weight: 0.001
+I0420 17:33:55.265395 31832 config.py:57] weight_decay: 1e-06
+I0420 17:33:55.265395 31832 config.py:57] str_weight: 0.1
+I0420 17:33:55.265395 31832 config.py:57] output: D:/project/AED/output
+I0420 17:33:55.265395 31832 config.py:57] dataset: D:/project/AED/dataset/
+I0420 17:33:55.265395 31832 config.py:57] device: cuda:0
+I0420 17:33:55.265395 31832 config.py:57] dataset_name: Ciao
+I0420 17:33:55.265395 31832 config.py:57] model_name: GSCL
+I0420 17:33:55.265395 31832 config.py:57] discrepancy_loss: dCor
+I0420 17:33:55.265395 31832 config.py:57] watch_metric: recall
+I0420 17:33:55.265395 31832 config.py:57] data_source: valid
+I0420 17:33:55.265395 31832 config.py:57] metrics: ['precision', 'recall', 'hit_ratio', 'ndcg']
+I0420 17:33:55.265395 31832 config.py:57] str_intervention: True
+I0420 17:33:55.265395 31832 config.py:57] pre_intervention: False
+I0420 17:33:55.265395 31832 config.py:57] adj_split: False
+I0420 17:33:55.266391 31832 config.py:57] dropout: False
+I0420 17:33:55.266391 31832 config.py:57] faiss_use_gpu: False
+I0420 17:33:55.266391 31832 config.py:57] ?: False
+I0420 17:33:55.266391 31832 config.py:57] help: False
+I0420 17:33:55.266391 31832 config.py:57] helpshort: False
+I0420 17:33:55.266391 31832 config.py:57] helpfull: False
+I0420 17:33:55.266391 31832 config.py:57] helpxml: False
