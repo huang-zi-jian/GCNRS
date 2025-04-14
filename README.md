@@ -3,13 +3,13 @@
 
 <br>
 <p align='center'>
-<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/mia-gcf-architecture.png"  width="600" height="300"><br>
+<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/mia-gcf-architecture.png"  width="800" height="300"><br>
 <i> (1): MIA-GCF的整体架构图 </i>
 </p>
 
 <br>
 <p align='center'>
-<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/ads-secl-architecture.png"  width="600" height="300"><br>
+<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/ads-secl-architecture.png"  width="800" height="300"><br>
 <i> (2): ADS-GSCL的整体架构图 </i>
 </p>
 
