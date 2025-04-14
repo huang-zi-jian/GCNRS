@@ -179,7 +179,6 @@ class GraphDataset(Dataset):
             if self.flags_obj.model_name in ['lightGCL', 'GSCL']:
                 svd_u, s, svd_v = torch.svd_lowrank(self.symmetric_sub_graph, q=self.flags_obj.q)
                 self.SVD_symmetric_sub_graph = svd_u @ torch.diag(s) @ svd_v.T
-                self.DRO_symmetric_sub_graph = svd_u @ torch.diag(s) @ svd_v.T
                 self.U_mul_S = svd_u @ torch.diag(s)
                 self.V_mul_S = svd_v @ torch.diag(s)
 
