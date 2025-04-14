@@ -1,5 +1,17 @@
 # GCNRS
-实验结果的输出包括 MIA-GCF 模型以及 ADS-GSCL 模型的实验日志。相关代码文件均存储在 scr 文件夹中，其中 MIA-GCF 模型的实现以 MIA_SP_v8.py 文件为准，而 ADS-GSCL 模型的实现则以 DRO_GCL 文件为依据。不同版本的模型代码文件对应于模型的消融实验变体及各类深度模块分析，以便系统地评估和比较不同结构对模型性能的影响。
+实验结果的输出包括 MIA-GCF 模型以及 ADS-GSCL 模型的实验日志。相关代码文件均存储在 scr 文件夹中，其中 MIA-GCF 模型的实现以 MIA_SP_v8.py 文件为准，而 ADS-GSCL 模型的实现则以 DRO_GCL 文件为依据。不同版本的模型代码文件对应于模型的消融变体及各类深度模块分析，以便系统地评估和比较不同结构对模型性能的影响。
+
+<br>
+<p align='center'>
+<img src="https://user-images.githubusercontent.com/60952950/219573564-64d5e9cc-6dbc-4cc9-b115-95fb6d46f1a7.png"  width="600" height="300"><br>
+<i> (1): MIA-GCF的整体架构图 </i>
+</p>
+
+<br>
+<p align='center'>
+<img src="https://user-images.githubusercontent.com/60952950/219573564-64d5e9cc-6dbc-4cc9-b115-95fb6d46f1a7.png"  width="600" height="300"><br>
+<i> (2): ADS-GSCL的整体架构图 </i>
+</p>
 
 ### 1. 运行环境
 本地计算资源应至少满足以下配置：NVIDIA RTX 3060 GPU 和 16GB DDR4内存。这些配置能够有效支持大多数中小规模深度学习模型的训练和评估。然而，对于更复杂的模型，尤其是需要处理大规模数据集或涉及高维计算的任务，可能需要更强大的硬件资源才能确保模型训练和评估的顺利进行。在以下环境下进行模型评估，且采用 Adam优化器 来优化模型的训练过程。更详细的第三方库版本见requirements.txt文件。
