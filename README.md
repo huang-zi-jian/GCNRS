@@ -9,7 +9,7 @@
 
 <br>
 <p align='center'>
-<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/ads-secl-architecture.png"  width="500" height="220"><br>
+<img src="https://github.com/huang-zi-jian/GCNRS/blob/main/image/ads-secl-architecture.png"  width="500" height="200"><br>
 <i> (2): ADS-GSCL的整体架构图 </i>
 </p>
 
