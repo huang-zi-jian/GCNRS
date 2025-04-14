@@ -22,6 +22,7 @@ flags.DEFINE_integer("embedding_dim", 64, "Embedding dimension for embedding bas
 flags.DEFINE_integer("faiss_gpu_id", 0, "GPU ID for faiss search.")
 flags.DEFINE_integer("n_layers", 3, "The layer number of lightGCN.")
 flags.DEFINE_integer("q", 5, "SVD q.")
+flags.DEFINE_integer("intent_number", 4, "The intent number for MIA.")
 flags.DEFINE_integer("pool_num", 2, "Negative samples number.")
 # flags.DEFINE_integer("topk", 20, "Top k for testing recommendation performance.")
 flags.DEFINE_multi_integer("topks", [20], "Top k for testing recommendation performance.")
