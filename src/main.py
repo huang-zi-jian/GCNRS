@@ -34,9 +34,9 @@ flags.DEFINE_float("weight_decay", 1e-6, "Weight decay of optimizer.")
 flags.DEFINE_float("str_weight", 0.01, "Weight of structure loss.")
 flags.DEFINE_float("margin", 0.1, "Margin of structure loss.")
 flags.DEFINE_float("alpha", 0.5, "alpha parameter.")
-flags.DEFINE_string("output", '/Users/feifei/Master/研3/毕设/老师验收/GCNRS/output-1', "Folder for experiment result.")
+flags.DEFINE_string("output", '/Users/Master/GCNRS/output-1', "Folder for experiment result.")
 # flags.DEFINE_string("exp_name", "experiment", "Experiment name.")
-flags.DEFINE_string("dataset", "/Users/feifei/Master/研3/毕设/老师验收/GCNRS/datasets/", "Folder for dataset.")
+flags.DEFINE_string("dataset", "/Users/Master/GCNRS/datasets/", "Folder for dataset.")
 flags.DEFINE_enum("device", "cpu", ['cpu', 'cuda:0', 'cuda:1', 'cuda:2', 'cuda:3'], 'Device setting for training.')
 flags.DEFINE_enum("dataset_name", "coat",
                   ["Ciao", "coat", "book-crossing", "lastfm", "ml1m", "yahoo", "Ciao_bias", "lastfm_bias",
