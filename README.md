@@ -16,9 +16,9 @@ tqdm==4.64.1
 ### 2. 一些重要参数的说明
 
 * `--topks` 生成推荐的K个物品列表。
-* `--cl_weight` 是对比损失项$\mathcal{L}_{cl}$的正则系数。
-* `--str_weight` 是结构区域约束项$\mathcal{L}_{S}$的正则系数。
-* `--weight_decay` 是$L_2$正则系数。
+* `--cl_weight` 是对比损失项 $\mathcal{L}_{cl}$的正则系数。
+* `--str_weight` 是结构区域约束项 $\mathcal{L}_{S}$的正则系数。
+* `--weight_decay` 是L2正则系数。
 * `--temp` 对应对比损失函数中的温度系数 $\tau$。
 * `--static_prob` 是交互边的丢弃比例。
 * `--batch_size` 是训练批次数据量。
